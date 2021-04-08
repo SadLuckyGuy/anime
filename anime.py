@@ -893,7 +893,7 @@ for event in longpoll.listen():
 						vk_session.method('messages.send', {'user_id' : id, 'message' : 'Используйте "Перелистнуть вперед", чтобы перелистнуть вперед' + '\nИспользуйте "Перелистнуть назад", чтобы перелистнуть назад', 'keyboard' : forma, 'random_id' : random.randint(-1234567, +1234567)})
 
 				if users[user_id].number == 129:
-					users[user_id].go(event)
+					users[user_id].back(event)
 					if users[user_id].manga == 1:
 						photo(id, 'photo-202584478_457239174') 
 						vk_session.method('messages.send', {'user_id' : id, 'message' : 'Используйте "Перелистнуть вперед", чтобы перелистнуть вперед', 'keyboard' : welcome, 'random_id' : random.randint(-1234567, +1234567)})
