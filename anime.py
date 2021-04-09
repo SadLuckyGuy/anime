@@ -2,7 +2,7 @@ import vk_api, json
 from vk_api.longpoll import VkLongPoll, VkEventType
 import random
 
-vk_session = vk_api.VkApi(token = '422f0a77cb543213ab9ef515b7c4939adecbdb5904d4ab69e9a8b8846593a7c00165c7b552c50401c7bba') 
+vk_session = vk_api.VkApi(token = 'c41c3b0142af57ad5b28f76bfcf7bbb54f25133e83e579921b886a06b47221d07892379a62e92f5a92656')
 # 422f0a77cb543213ab9ef515b7c4939adecbdb5904d4ab69e9a8b8846593a7c00165c7b552c50401c7bba - TEST
 # c41c3b0142af57ad5b28f76bfcf7bbb54f25133e83e579921b886a06b47221d07892379a62e92f5a92656 - SadBot
 # a863cfe7e14425f41abd4890340ea94e5ee063293ab648a97f09a506433f8c540006c219dd43b49b8e55c - Хлам питонщика
